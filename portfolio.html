@@ -5,63 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
+
+    <!--Шапка-->
     <header>
       <nav>
-        <a class="logo" href="./index.html">Web <span class="logo-dark">Studio</span></a>
+        <a class="logo btn" href="./index.html">Web <span class="logo-dark">Studio</span></a>
 
-        <ul class="list">
-          <li class="item">
-            <a class="link" href="./index.html">Студия</a>
+        <ul class="site-nav list">
+          <li>
+            <a href="./index.html" class="menu-nav btn" >Студия</a>
           </li>
           <li>
-            <a class="link" href="./portfolio.html">Портфолио</a>
+            <a href="./portfolio.html" class="menu-nav link-current btn">Портфолио</a>
           </li>
-          <li class="">
-            <a class="link" href="#">Контакты</a>
+          <li>
+            <a href="#" class="menu-nav btn">Контакты</a>
           </li>
         </ul>
       </nav>
 
       <ul class="list">
-        <li class="item">
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <li>
+          <a href="mailto:info@devstudio.com" class="address black">info@devstudio.com</a>
         </li>
-        <li class="item">
-          <a href="tel:380961111111">+38 096 111 11 11</a>
+        <li>
+          <a href="tel:380961111111" class="address black">+38 096 111 11 11</a>
         </li>
     </ul>
     </header>
 
-    <main>
+    <main> 
+      <!--Портфолио-->
         <section>
-            <h1 class="title">Портфолио</h1>
+            <h1 class="visually-hidden">Портфолио</h1>
 
             <div>
-                <h2 class="titel">Фильтры</h2>
-                <ul class="filter-list">
+                <h2 class="visually-hidden">Фильтры</h2>
+                <ul class="list">
                     <li class="filter-item">
-                        <button class="filter-btn" type="button">Все</button>
+                        <button class="all-btn btn" type="button" >Все</button>
                     </li>
                     <li class="filter-item">
-                        <button class="filter-btn" type="button">Веб-сайты</button>
+                        <button class="filter-btn btn" type="button">Веб-сайты</button>
                     </li>
                     <li class="filter-item">
-                        <button class="filter-btn" type="button">Приложения</button>
+                        <button class="filter-btn btn" type="button">Приложения</button>
                     </li>
                     <li class="filter-item">
-                        <button class="filter-btn" type="button">Дизайн</button>
+                        <button class="filter-btn btn" type="button">Дизайн</button>
                     </li>
                     <li class="filter-item">
-                        <button class="filter-btn" type="button">Маркетинг</button>
+                        <button class="filter-btn btn" type="button">Маркетинг</button>
                     </li>
                 </ul>
             </div>
 
             <div>
-                <h2 class="title">Проекты</h2>
-                <ul>
+                <h2 class="visually-hidden">Проекты</h2>
+                <ul class="list">
                     <li class="project-item">
                         <img src="./images/project/project1.jpg" alt="Открытая страница сайта" width="370" height="294">
                         <h3 class="project-title">Технокряк</h3>
@@ -111,23 +119,21 @@
             </div>
         </section>
     </main>
-
-    <footer>
-        <a class="logo" href="./index.html">Web <span class="logo-dark">Studio</span></a>
-        <address>
-            <ul class="list">
-                <li class="item"><a href="https://bit.ly/3pXMvUd" target="_blank" rel="noopener noreferrer">г. Киев, пр-т
-                    Леси Украинки, 26</a> </li>
-                <li class="item">
-                  <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li class="item">
-                  <a href="tel:380961111111">+38 096 111 11 11</a>
-                </li>
-            </ul>
-        </address>
-    </footer>
+          <!--Подвал-->
+    <footer class="bg">
+      <a class="logo btn" href="./index.html">Web <span class="logo-white">Studio</span></a>
+      <address>
+          <ul class="address-list">
+              <li class="item"><a href="https://bit.ly/3pXMvUd" target="_blank" rel="noopener noreferrer" class="address logo-white btn">г. Киев, пр-т
+                  Леси Украинки, 26</a> </li>
+              <li class="item">
+                <a href="mailto:info@devstudio.com" class="address white btn">info@devstudio.com</a>
+              </li>
+              <li class="item">
+                <a href="tel:380961111111" class="address white btn">+38 096 111 11 11</a>
+              </li>
+          </ul>
+      </address>
+  </footer>
   </body>
 </html>
-
- class="title"
