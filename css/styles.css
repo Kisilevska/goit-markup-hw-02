@@ -149,21 +149,25 @@ body{
     letter-spacing: 0.06em;
     color: var(--title-text-color);
 }
+
 .project-text {
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 
-.filter-btn {
-    background-color: #F5F4FA;
+.all-btn,
+.filter-btn  {
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.6;
-    color: var(--title-text-color);
-    font-family: inherit;
+    line-height: 1.62;
     letter-spacing: 0.03em;
+}
+
+.filter-btn {
+    background-color: #F5F4FA;
+    color: var(--title-text-color);
 }
 
 .filter-btn:hover,
