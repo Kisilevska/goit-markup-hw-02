@@ -48,10 +48,14 @@ body{
     color: var(--primary-text-color);
 }
 
+.link {
+    text-decoration: none;
+}
+
 .address:hover,
 .address:focus,
-.btn:hover,
-.btn:focus {
+.link:hover,
+.link:focus {
     color: var(--accent-color);
 }
 
@@ -157,10 +161,17 @@ body{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.6;
-    letter-spacing: 0.03em;
     color: var(--title-text-color);
     font-family: inherit;
+    letter-spacing: 0.03em;
 }
+
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: #2196F3;
+    color: var(--primary-white-color);
+}
+
 .all-btn {
     background-color: #2196F3;
     color: var(--primary-white-color);
