@@ -67,17 +67,25 @@ body{
     background-color: #2F303A;
 }
 
-.hero {
+.section-hero {
     color: var(--primary-white-color);
     Font-size: 44px;
     Line-height: 1.36;
     font-weight: 900;
     letter-spacing: 0.06em;
+    text-align: center;
 }
 .btn-hero {
     font-family: inherit;
     color: currentColor;
     background-color: var(--accent-color);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+
+    color: var(--primary-white-color);
 }
 .btn-hero:hover,
 .btn-hero:focus {
